@@ -1,10 +1,11 @@
 {
-  "name": "turf-point",
+  "name": "turf-multipoint",
   "version": "0.1.6",
-  "description": "turf point module",
+  "description": "turf multipoint module",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js"
+    "test": "tape test.js",
+    "doc": "dox -r < index.js | doxme --readme > README.md"
   },
   "repository": {
     "type": "git",
@@ -13,22 +14,19 @@
   "keywords": [
     "geo",
     "point",
+    "multipoint",
     "turf",
     "geojson"
   ],
   "author": "morganherlocker",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/morganherlocker/turf-point/issues"
+    "url": "https://github.com/morganherlocker/turf-multipoint/issues"
   },
-  "homepage": "https://github.com/morganherlocker/turf-point",
-  "devDependencies": [
-    "tape"
-  ],
-  "dependencies": {
-    "minimist": "^0.2.0"
-  },
-  "bin": {
-    "turf-point": "bin/point.js"
+  "homepage": "https://github.com/morganherlocker/turf-multipoint",
+  "devDependencies": {
+    "0": "tape",
+    "dox": "^0.7.1",
+    "doxme": "^1.8.2"
   }
 }

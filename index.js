@@ -1,12 +1,12 @@
 /**
- * Creates a {@link MultiPoint} based on a
+ * Creates a {@link Feature<MultiPoint>} based on a
  * coordinate array. Properties can be added optionally.
  *
  * @module turf/multipoint
  * @category helper
  * @param {Array<Array<Number>>} coordinates an array of Positions
  * @param {Object=} properties an Object of key-value pairs to add as properties
- * @returns {Feature<LineString>} a LineString feature
+ * @returns {Feature<MultiPoint>} a MultiPoint feature
  * @throws {Error} if no coordinates are passed
  * @example
  * var multiPt = turf.multipoint([[0,0],[10,10]]);
