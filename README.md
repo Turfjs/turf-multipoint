@@ -1,6 +1,6 @@
 # turf-multipoint
 
-[![build status](https://secure.travis-ci.org/Turfjs/turf-point.png)](http://travis-ci.org/Turfjs/turf-point)
+[![build status](https://secure.travis-ci.org/Turfjs/turf-multipoint.png)](http://travis-ci.org/Turfjs/turf-multipoint)
 
 turf multipoint module
 
