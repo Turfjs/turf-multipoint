@@ -1,13 +1,13 @@
 # turf-multipoint
 
-[![build status](https://secure.travis-ci.org/morganherlocker/turf-point.png)](http://travis-ci.org/morganherlocker/turf-point)
+[![build status](https://secure.travis-ci.org/Turfjs/turf-point.png)](http://travis-ci.org/Turfjs/turf-point)
 
 turf multipoint module
 
 
 ### `turf.multipoint(coordinates, properties)`
 
-Creates a MultiPoint based on a
+Creates a Feature based on a
 coordinate array. Properties can be added optionally.
 
 
@@ -28,7 +28,7 @@ var multiPt = turf.multipoint([[0,0],[10,10]]);
 ```
 
 
-**Returns** `Feature.<LineString>`, a LineString feature
+**Returns** `Feature.<MultiPoint>`, a MultiPoint feature
 
 ## Installation
 

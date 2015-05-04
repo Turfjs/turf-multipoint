@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/morganherlocker/turf-point.git"
+    "url": "https://github.com/Turfjs/turf-point.git"
   },
   "keywords": [
     "geo",
@@ -21,9 +21,9 @@
   "author": "morganherlocker",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/morganherlocker/turf-multipoint/issues"
+    "url": "https://github.com/Turfjs/turf-multipoint/issues"
   },
-  "homepage": "https://github.com/morganherlocker/turf-multipoint",
+  "homepage": "https://github.com/Turfjs/turf-multipoint",
   "devDependencies": {
     "0": "tape",
     "dox": "^0.7.1",
