@@ -1,7 +1,7 @@
 var test = require('tape');
 var multipoint = require('./')
 
-test('point', function(t){
+test('multipoint', function(t){
   t.deepEqual(multipoint([[0,0],[10,10]]), {
     "type": "Feature",
     "properties": {},
